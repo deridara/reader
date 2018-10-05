@@ -1,0 +1,55 @@
+@import '~antd/dist/antd.css';
+
+body {
+  font-family: sans-serif;
+  background: #ababab;
+}
+#root {
+  width: 900px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+}
+
+.article_title {
+  color: #333333;
+  font-weight: 600;
+}
+
+.article_title:not(:last-child) {
+  margin-top: 20px;
+}
+
+.article_text {
+  background: #f1f1f1;
+  padding: 20px 10px;
+  width: 100%;
+  font-size: 1em;
+}
+
+.article_date {
+  margin-left: 20px;
+  font-family: monospace;
+  color: #909090;
+  font-size: 1em;
+  margin: 0 0 10px;
+}
+
+.comment_div {
+  background: #b0b0b0;
+  padding: 20px;
+  margin: 10px 0 0 50px;
+}
+
+.comment_autor {
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.comments_button {
+  height: 50px;
+  width: 200px;
+  background-color: #606060;
+  color: white;
+  right: 0;
+}
